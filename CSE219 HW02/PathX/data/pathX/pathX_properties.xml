@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    The properties in this file setup a Harry Potter flavor of this game called
+    The Sorting Hat. Note that by swapping out all these settings we could easily
+    change the flavor.
+-->
+<properties>
+    <property_list>
+        <!-- ALL THE IMAGES TO BE USED IN THE GAME -->
+        <property name="IMAGE_BACKGROUND_LEVELSELECT"       value="./pathX/BackgroundLevelSelect.png"></property>
+		<property name="IMAGE_BACKGROUND_SETTINGS"       value="./pathX/BackgroundSetting.png"></property>
+		<property name="IMAGE_BACKGROUND_HELP"             value="./pathX/BackgroundHelp.png"></property>
+        <property name="IMAGE_BACKGROUND_MENUE"              value="./pathX/BackgroundMenue.png"></property>
+		<property name="IMAGE_BACKGROUND_GAME"              value="./pathX/BackgoundGame.png"></property>
+		<property name="IMAGE_NODE_WHITE"              value="./pathX/NODE_WHITE.png"></property>
+		<property name="IMAGE_NODE_GREEN"              value="./pathX/NODE_GREEN.png"></property>
+		<property name="IMAGE_NODE_RED"              value="./pathX/NODE_RED.png"></property>
+		<property name="IMAGE_MAP"                       value="./pathX/map.png"></property>
+        <property name="IMAGE_BAR"                       value="./pathX/BackgroundSettingCursor.png"></property>
+        <property name="IMAGE_BUTTON_STOP"               value="./pathX/StopButtonImage.png"></property>
+        <property name="IMAGE_BUTTON_START"               value="./pathX/StartButtonImage.png"></property>
+        
+        
+        <property name="IMAGE_DIALOGUE"                       value="./pathX/Dialogue.png"></property>
+		<property name="IMAGE_PLAYER"                       value="./pathX/player.png"></property>
+		<property name="IMAGE_ZOMBIE"                       value="./pathX/zombie.png"></property>
+		<property name="IMAGE_BANDIT"                       value="./pathX/bandit.png"></property>
+		<property name="IMAGE_POLICE"                       value="./pathX/police.png"></property>
+        <property name="IMAGE_CHECKED"                       value="./pathX/Checked.png"></property>
+        <property name="IMAGE_CHECK"                       value="./pathX/Check.png"></property>
+        <property name="IMAGE_BUTTON_PLAY"                  value="./pathX/ButtonPlay.png"></property>
+		<property name="IMAGE_BUTTON_RESET"                 value="./pathX/ButtonReset.png"></property>
+		<property name="IMAGE_BUTTON_SETTING"               value="./pathX/ButtonSettings.png"></property>
+        <property name="IMAGE_BUTTON_HELP"                  value="./pathX/ButtonHelp.png"></property>
+		<property name="IMAGE_BUTTON_UP"                  value="./pathX/UP.png"></property>
+		<property name="IMAGE_BUTTON_DOWN"                  value="./pathX/DOWN.png"></property>
+		<property name="IMAGE_BUTTON_LEFT"                  value="./pathX/LEFT.png"></property>
+		<property name="IMAGE_BUTTON_RIGHT"                  value="./pathX/RIGHT.png"></property>
+        <property name="IMAGE_WINDOW_ICON"                  value="./pathX/WindowIcon.png"></property>      
+        <property name="IMAGE_BUTTON_CLOSE"                  value="./pathX/ButtonCLose.png"></property> 		
+		<property name="IMAGE_BUTTON_HOME"                  value="./pathX/ButtonHome.png"></property> 	
+        <property name="TEXT_TITLE_BAR_GAME"                    value="The PathX"></property>
+    </property_list>
+    
+    <!-- PLAYABLE LEVELS CREATED WITH THE LEVEL EDITOR -->
+   <property_options_list>
+        <property_options name="LEVEL_OPTIONS">
+            <option>./pathX/levels/Seattle,WA.bin</option>
+            <option>./pathX/levels/Chicago,IN.bin</option>
+            <option>./pathX/levels/NYC,NY.bin</option>
+            <option>./pathX/levels/Alabama.bin</option>
+            <option>./pathX/levels/arkansa.bin</option>
+            <option>./pathX/levels/colorado.bin</option>
+            <option>./pathX/levels/Conn.bin</option>
+            <option>./pathX/levels/delware.bin</option>
+            <option>./pathX/levels/flordia.bin</option>
+            <option>./pathX/levels/georgia.bin</option>
+            <option>./pathX/levels/illinois.bin</option>
+            <option>./pathX/levels/idoho.bin</option>
+            <option>./pathX/levels/hawaii.bin</option>
+            <option>./pathX/levels/indiana.bin</option>
+            <option>./pathX/levels/iowa.bin</option>
+            <option>./pathX/levels/kansas.bin</option>
+            <option>./pathX/levels/kentucky.bin</option>
+            <option>./pathX/levels/louisiana.bin</option>
+            <option>./pathX/levels/montana.bin</option>
+
+
+
+        </property_options>
+        <property_options name="LEVEL_IMAGE_OPTIONS">
+            
+        </property_options>
+        <property_options name="LEVEL_MOUSE_OVER_IMAGE_OPTIONS">
+         
+        </property_options>
+    </property_options_list>
+</properties>

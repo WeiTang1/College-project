@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<level image="DeathValleyBackground.png" name="test">
+     <intersections>
+          <intersection id="0" open="true" x="267" y="239"/>
+          <intersection id="1" open="true" x="818" y="253"/>
+          <intersection id="2" open="true" x="530" y="107"/>
+          <intersection id="3" open="true" x="530" y="192"/>
+          <intersection id="4" open="true" x="518" y="324"/>
+          <intersection id="5" open="true" x="631" y="138"/>
+     </intersections>
+     <roads>
+          <road int_id1="0" int_id2="2" one_way="false" speed_limit="30"/>
+          <road int_id1="0" int_id2="3" one_way="false" speed_limit="30"/>
+          <road int_id1="0" int_id2="4" one_way="false" speed_limit="30"/>
+          <road int_id1="2" int_id2="5" one_way="false" speed_limit="30"/>
+          <road int_id1="3" int_id2="5" one_way="false" speed_limit="30"/>
+          <road int_id1="5" int_id2="1" one_way="false" speed_limit="30"/>
+          <road int_id1="4" int_id2="1" one_way="false" speed_limit="30"/>
+     </roads>
+     <start_intersection id="0" image="DefaultStartLocation.png"/>
+     <destination_intersection id="1" image="DefaultDestination.png"/>
+     <money amount="0"/>
+     <police num="0"/>
+     <bandits num="0"/>
+     <zombies num="0"/>
+</level>
